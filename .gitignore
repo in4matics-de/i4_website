@@ -1,0 +1,44 @@
+# OS / Explorer
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node / Frontend-Builds (falls du doch mal was buildest)
+node_modules/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.sass-cache/
+coverage/
+
+# Env / Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Temporäres Zeug
+tmp/
+temp/
+*.tmp
+
+# Minifizierte Artefakte (optional – nur wenn du die nicht versionieren willst)
+*.min.css
+*.min.js
