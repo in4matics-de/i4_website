@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy static content to strato
 
 on:
   # Runs on pushes targeting the default branch
@@ -29,3 +29,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: SFTP upload
+        uses: Dylan700/sftp-upload-action@latest
+        with:
+          server: 51445392.ssh.w1.strato.hosting
+          username: stu408233242
+          password: L#;X)_gT7cYMxBeffg23t
+          port: 22
+          uploads: |
+            ./ => ./
