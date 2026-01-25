@@ -1,0 +1,68 @@
+<!-- danke.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Danke – in4matics UG</title>
+  <meta name="description" content="Danke für deine Nachricht. Wir melden uns umgehend bei dir.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/img/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="in4matics" />
+  <link rel="manifest" href="/site.webmanifest" />
+</head>
+<body>
+  <a class="skip-link" href="#hauptinhalt">Zum Inhalt springen</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="logo" href="index.html#start" aria-label="in4matics Startseite">
+        <span class="logo-mark" aria-hidden="true"><img src="assets/img/I4-Logo_neu_frei.png" style="height: 36px; width: 36px;"></span>
+        <span class="logo-text">in4matics</span>
+      </a>
+
+      <button class="nav-toggle" aria-controls="hauptmenue" aria-expanded="false" aria-label="Navigation umschalten">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav id="hauptmenue" class="main-nav" role="navigation" aria-label="Hauptmenü">
+        <ul>
+          <li><a href="index.html#leistungen">Leistungen</a></li>
+          <li><a href="index.html#produkte">Produkte</a></li>
+          <li><a href="index.html#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="hauptinhalt">
+    <section class="section" aria-label="Danke">
+      <div class="container" style="min-height: calc(100dvh - 240px); display: grid; place-items: center; text-align: center;">
+        <div>
+          <p style="font-weight: 700; font-size: clamp(1.4rem, 3.4vw, 2.2rem); margin: 0 0 1rem 0;">
+            Danke für deine Nachricht! Wir melden uns umgehend bei dir.
+          </p>
+          <a class="btn btn-primary" href="index.html#start">Zurück zur Startseite</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>&copy; <span id="jahr"></span> in4matics UG (haftungsbeschränkt). Alle Rechte vorbehalten.</p>
+      <nav aria-label="Footermenü">
+        <a href="impressum.html" target="_self" aria-label="Impressum (Platzhalter)">Impressum</a>
+        <a href="#" aria-label="Datenschutz (Platzhalter)">Datenschutz</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="to-top" aria-label="Nach oben scrollen">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
