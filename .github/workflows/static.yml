@@ -32,7 +32,8 @@ jobs:
       - name: SFTP upload
         uses: Dylan700/sftp-upload-action@latest
         with:
-          server: 51445392.ssh.w1.strato.hosting
+#          server: 51445392.ssh.w1.strato.hosting
+          server: www.in4matics.de
           username: ${{secrets.sftpusername}}
           password: ${{secrets.sftppassword}}
           port: 22
