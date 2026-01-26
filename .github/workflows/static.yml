@@ -33,11 +33,11 @@ jobs:
         uses: Dylan700/sftp-upload-action@latest
         with:
           server: 51445392.ssh.w1.strato.hosting
-          username: ${{secrets.stratousername}}
-          password: ${{secrets.stratopassword}}
+          username: ${{secrets.sftpusername}}
+          password: ${{secrets.sftppassword}}
           port: 22
           uploads: |
-            ./ => ./
+            ./ => ./in4matics.de/
           ignore: |
             *.git
             .gitignore
