@@ -153,7 +153,7 @@ h1,h2,h3,h4{
   border-radius:8px;
 }
 .main-nav a:focus-visible{
-  outline:3px solid var(--focus);
+  outline:1px solid var(--brand-700);
   outline-offset:2px;
 }
 .main-nav a:hover{color:#fff}
@@ -230,7 +230,7 @@ h1,h2,h3,h4{
   border:1px solid transparent;
 }
 .btn:focus-visible{
-  outline:3px solid var(--focus);
+  outline:1px solid var(--brand-700);
   outline-offset:2px;
 }
 .btn-primary{
@@ -383,7 +383,7 @@ h1,h2,h3,h4{
   pointer-events:auto;
   transform:translateY(0);
 }
-.to-top:focus-visible{outline:3px solid var(--focus)}
+.to-top:focus-visible{outline:3px solid var(--brand-700)}
 
 .modal{
   position:fixed;
@@ -432,7 +432,7 @@ h1,h2,h3,h4{
   line-height:1;
 }
 .modal-close:focus-visible{
-  outline:3px solid var(--focus);
+  outline:1px solid var(--brand-700);
   outline-offset:2px;
 }
 .modal-media{
