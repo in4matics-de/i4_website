@@ -365,7 +365,7 @@ h1,h2,h3,h4{
 .site-footer a:hover{color:#fff}
 .footer-right{display:flex; align-items:center; gap:1.2rem; flex-wrap:wrap}
 .footer-partner{display:inline-flex; align-items:center}
-.footer-partner img{height:28px; width:auto; display:block; border-radius:4px; transition:opacity .2s}
+.footer-partner img{height:48px; width:auto; display:block; border-radius:4px; transition:opacity .2s}
 .footer-partner:hover img{opacity:.85}
 
 .to-top{
