@@ -364,9 +364,9 @@ h1,h2,h3,h4{
 .site-footer a{color:var(--muted); text-decoration:none}
 .site-footer a:hover{color:#fff}
 .footer-right{display:flex; align-items:center; gap:1.2rem; flex-wrap:wrap}
-.footer-partner{display:inline-flex; align-items:center}
-.footer-partner img{height:72px; width:auto; display:block; border-radius:4px; transition:opacity .2s}
-.footer-partner:hover img{opacity:.85}
+.footer-partner{display:inline-flex; align-items:center; background:#dcdcdc; padding:.4rem .8rem; border-radius:8px; transition:opacity .2s}
+.footer-partner img{height:64px; width:auto; display:block}
+.footer-partner:hover{opacity:.85}
 
 .to-top{
   position:fixed;
